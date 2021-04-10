@@ -3,8 +3,14 @@ img{
     height: 60px;
     border-radius: 50%;
 }
-.tri{
-    border-color: transparent gray transparent transparent;
+.chatOdd img{
+    float: left;
+}
+.chatEven img{
+    float: Right;
+}
+.triLeft{
+    border-color: transparent lightpink transparent transparent;
     border-width: 10px;
     border-style: solid;
     width: 0px;
@@ -12,17 +18,26 @@ img{
     float: left;
     margin-top: 10px;
 }
-.chat img{
-    float: left;
+.triRight{
+    border-color: transparent transparent transparent lightblue;
+    border-width: 10px;
+    border-style: solid;
+    width: 0px;
+    height: 0px;
+    float: Right;
+    margin-top: 10px;
 }
-.text{
+.textLeft, .textRight{
     height: 85px;
     margin: 20px 80px;
     padding: 5px;
     border-radius: 10px;
 }
-.text{
-    background-color: gray;
+.textLeft{
+    background-color: lightblue;
+}
+.textRight{
+    background-color: lightpink;
 }
 
 
