@@ -1,0 +1,29 @@
+#rect{
+    background-color: green;
+    width: 350px;
+    height: 250px;
+    margin: -330px 0px 0px 100px;
+}
+#roal{
+    background-color: black;
+    width: 2000px;
+    height: 200px;
+    margin: 400px -50px -50px 100px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin: -320px 0px 0px 115px;
+}
+img{
+    -webkit-animation: 'rotate1' 3s linear infinite;
+    animation: 'rotate1' 3s linear infinite;
+}
+@-webkit-animation rotate1{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+@keyframes rotate1{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);} 
+}
