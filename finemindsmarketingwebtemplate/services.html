@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<?php
+$12600=$_POST['12600'];
+$13900=$_POST['13900'];
+$9800=$_POST['9800'];
+$191600=$_POST['191600'];
+$117000=$_POST['117000'];
+$70000=$_POST['70000'];
+$1800=$_POST['1800'];
+$795=$_POST['795'];
+$1450=$_POST['1450'];
+$650=$_POST['650'];
+$390=$_POST['390'];
+?>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Services - Fineminds Marketing Solutions Website Template</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<style type = "text/css">
+		span{ color: red;}
+	</style>
+
+</head>
+<body>
+	<div class="border">
+		<div id="bg">
+			background
+		</div>
+		<div class="page">
+			<div class="sidebar">
+				<a href="index.html" id="logo"><img src="images/logo.jpg" alt="logo"></a>
+				<ul>
+					<li>
+						<a href="index.html">首頁</a>
+					</li>
+				</ul>
+				<form action="index.html">
+					<span>Newsletter Signup</span>
+					<input type="text" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Enter Valid Email Address':this.value;" value="Enter Valid Email Address">
+					<input type="submit" id="submit" value="submit">
+				</form>
+				<div class="connect">
+					<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a> <a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a> <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">youtube</a>
+				</div>
+				<p>
+					Copyright 2023
+				</p>
+				<p>
+					Fineminds Marketing Solutions
+				</p>
+			</div>
+			<div class="body">
+				<div class="services">
+					<form action='about.html' method='post'>
+					<h1>請填寫購買人資訊</h1>
+						<p><label>購買人姓名:
+							<input name="name" type="text" size="25" placeholder="王XX" required>
+							(請輸入真實姓名)
+						</label></p>
+						<p><label>聯絡資訊:
+							<input name="phone" type="tel" size="25" placeholder="0912-345-678" pattern="\d{4}-\d{3}-\d{3}" required>
+							(用於送貨時連絡)
+						</label></p>
+						<p><label>身分證字號:
+							<input name="idc" type="text" size="25" placeholder="A123456789" pattern="[A-Z][0-9]{9}" required>
+						</label></p>
+						<p><label>電子郵件:
+							<input name="email" type="email" size="25" placeholder="0912-345-678" required>
+						</label></p>
+						<p><label>送貨地址:
+							<input name="address" type="text" size="25" placeholder="xx市xx街xx號xx樓" required>
+						</label></p>
+						<p>
+							<strong>可取貨時間</strong><br>
+								<label><input name="time" type="checkbox" value="8a" >8:00a.m.~10:00a.m</label>
+								<label><input name="time" type="checkbox" value="10a" >10:00a.m.~12:00a.m</label>
+								<label><input name="time" type="checkbox" value="12p" >12:00p.m.~2:00p.m</label>
+								<label><input name="time" type="checkbox" value="2p" >2:00p.m.~4:00p.m</label>
+								<label><input name="time" type="checkbox" value="4p" >4:00p.m.~6:00p.m</label>
+								<label><input name="time" type="checkbox" value="6p" >6:00p.m.~8:00p.m</label>
+						</p>
+						<p>
+							<strong>是否開立發票</strong><br>
+								<label><input name="ticket" type="radio" value="yes"required>是</label>
+								<label><input name="ticket" type="radio" value="no">否，捐給社福團體</label>
+						</p>
+						<ul >
+							<li class="selected">
+							<li>
+								<input type="submit" value="送出訂單" >
+							</li>
+							<li>
+								<a href="index.html">取消訂單</a>
+							</li>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
